@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "Leximpostor es un juego de mesa virtual en grupo (hasta 12 jugadores a la vez) en el que todos se turnan para leer una palabra secreta y decir palabras relacionadas sin revelarla, sin embargo, va a haber uno o más jugadores que no sepan la palabra secreta, por lo tanto, tendrán que mentir o tratar de adivinar la palabra. Al final de cada ronda, los jugadores deberán votar quien piensan que es el impostor, y los impostores deberán argumentar a favor de su palabra.",
   "main": "main.js",
+  "type": "module",
   "scripts": {
-    "dev": "echo \"hola\""
+    "dev": "node --watch ./src/dist/app.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.13.1",
   "devDependencies": {
+    "@types/express": "^5.0.3",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "5.1.0"
   }
 }
