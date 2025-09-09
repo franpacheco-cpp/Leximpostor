@@ -1,0 +1,22 @@
+{
+  "categories": {
+    "famous": [
+      "Eminem",
+      "Gustavo Cerati",
+      "Messi",
+      "Mr Beast"
+    ],
+    "food": [
+      "Milanesas",
+      "Fideos",
+      "Empanadas Árabes",
+      "Asado"
+    ],
+    "brands": [
+      "Coca Cola",
+      "La Serenisima",
+      "Microsoft",
+      "Apple"
+    ]
+  }
+}

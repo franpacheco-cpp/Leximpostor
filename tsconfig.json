@@ -3,7 +3,13 @@
   "compilerOptions": {
     // File Layout
     "rootDir": "./src/backend",
-    "outDir": "./src/dist",
+    "outDir": "./dist",
+
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@types/*": ["types/*"]
+    },
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
