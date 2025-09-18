@@ -1,6 +1,7 @@
 # node packages and else
 pnpm-lock.yaml
 node_modules/
+dist/
 
 # Another folders
 .vscode/
