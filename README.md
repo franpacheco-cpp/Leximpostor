@@ -3,4 +3,5 @@ Leximpostor es un juego de mesa virtual en grupo (hasta 12 jugadores a la vez) e
 Al final de cada ronda, los jugadores deberán votar quien piensan que es el impostor, y los impostores deberán argumentar a favor de su palabra.
 ### Créditos
 Programación: Francisco Pacheco, Valentín Dominguez
+
 Tutoría: Ivana Rojas Córsico
