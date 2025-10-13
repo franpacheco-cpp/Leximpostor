@@ -10,7 +10,7 @@ const wordsData = async (): Promise<Words> => {
   return JSON.parse(wordsFile)
 }
 
-const words = await wordsData()
+const words: Words = await wordsData()
 
 export const getWords = (req: Request, res: Response) => {
   return res.json(words)

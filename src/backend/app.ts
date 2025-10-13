@@ -6,7 +6,7 @@ export const dirname = path.resolve()
 const PORT = 3000
 
 const app = express()
-express.static(path.join(dirname, "api/"))
+app.disable('x-powered-by')
 
 app.get('/', (req: Request, res: Response) => {
   res.json({ message: 'Hello world' })
